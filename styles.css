@@ -27,6 +27,7 @@ a{
 .top-flex-links {
     display: flex;
     justify-content:space-between;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     padding: 15px;
@@ -71,20 +72,24 @@ a{
 .borderbox {
     display: flex;
     border: 1px solid rgba(0, 0, 0, 0.082);
-    width: 482px;
+    width: 582px;
     height: 44px;
     margin-top: 30px;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
     border-radius: 50px;
+    cursor: text;
+}
+
+.borderbox:hover {
+    box-shadow: 1px 1px 10px grey;
 }
 
 .textbox {
-    align-content: center;
-    width: 420px;
+    align-self: center;
+    width: 510px;
     height: 16px;
     font-size: 16px;
-    margin-top: 10px;
     padding-left: 20px;
     border: none;
     outline: none;
